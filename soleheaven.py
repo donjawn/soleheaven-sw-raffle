@@ -15,7 +15,7 @@ def main(limit):
             'id': '40e2ef-33312',
             'type': 'full',
             'refer_source': '',
-            'entry_source': https://www.soleheaven.com/pages/wotherspoon-raffle
+            'entry_source': 'https://www.soleheaven.com/pages/wotherspoon-raffle',
             'email': email,
             'email_again': '',
             '23202_1521393710': 'UKyoursize' # put size here ie UK9 or UK9.5 do not remove UK
