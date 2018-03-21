@@ -10,12 +10,15 @@ headers = {'User-Agent':
 def main(limit):
     for i in range(1, limit+1):
         num = getrandbits(40)
-        name = 'your name{}'.format(num) # put your name here, don't remove the {}
         email = 'your_email+{}@gmail.com'.format(num) # CHANGE YOUR_EMAIL to your email prefix. don't change the +{} after.
         payload = {
-            'action': 'contest',
+            'id': '40e2ef-33312',
+            'type': 'full',
+            'refer_source': '',
+            'entry_source': https://www.soleheaven.com/pages/wotherspoon-raffle
             'email': email,
-            'size': '10', # change your size
+            'email_again': '',
+            '23202_1521393710': 'UKyoursize' # put size here ie UK9 or UK9.5 do not remove UK
         }
         resp = requests.post(url, data=payload, headers=headers)
         print('{}/{} registered.'.format(i, limit))
@@ -25,5 +28,5 @@ if __name__ == "__main__":
     main(x)
 
 
-// this is a modification of github user yousefissa's needsupply raffle script
-// not my original creation therefore do not take full credit for it
+# this is a modification of github user yousefissa's needsupply raffle script
+# not my original creation therefore do not take full credit for it
